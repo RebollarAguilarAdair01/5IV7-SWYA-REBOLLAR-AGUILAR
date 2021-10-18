@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <title>Cifrado</title>
+    <link rel="stylesheet" href="./CSS/HojaDeEstilos.css">
+</head>
+<body>
+    <div class="col-md-5 offset-md-3" style="margin-top: 4%;">
+       
+            <center><h1>CIFRADO</h1></center>
+            <br>
+            
+                <br>
+                <h5>SELECIONE EL TIPO DE CIFRADO</h5>
+                <select class="form-select" name="tipoAES" id="tipo">
+                    <option value="128">Tipo 128</option>
+                    
+                    <option value="192">Tipo 192</option>
+                    
+                    <option value="256">Tipo 256</option>
+                    
+                </select>
+                <br>
+                <br>
+                <textarea class="form-control" id="txt" placeholder="Mensaje" ></textarea>
+                <br>
+                <input class="form-control" type="txt" placeholder="Clave" id="clave" >
+            
+                <input class="btn btn-info" type="button" value="Cifrar" onclick="cifrar()">
+                <br>
+                <br>
+          
+            <br>
+            
+                El texto cifrado es:<br>
+                <textarea class="form-control" id="txtcifrado" placeholder="Texto Cifrado" disabled></textarea>
+           
+                <br>
+                <p id="txt"></p>
+                <div id="resultado"></div>
+                <br>
+                <br>
+                <p>Ir a la pagina de DECIFRADO:</p>
+                <p><button class="btn btn-primary"><a href="DecifradoAES.html">Descifrar</a></button></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" ></script>
+    <script src="JS/Aes.js" ></script>
+</body>
+</html>
