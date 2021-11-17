@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Verificado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="index.html"><button>Firmar Archivo</button></a>
+        <a href="verificado.html"><button>Verificar firma de un archivo</button></a>
+        <form name="formulario" method="POST" enctype="multipart/form-data" action="Verificador">
+            <table>
+            <tr>
+            <td>Seleccione Archivo que dese veridicar su validez</td><td><input type="file" name="archivos"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Verificar" /></td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
