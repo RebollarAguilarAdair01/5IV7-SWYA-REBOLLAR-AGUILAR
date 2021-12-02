@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/estilos.css">
+
+
+</head>
+<body>
+    
+
+<h1>Tipos de Especie</h1>
+<div class="peces">
+    <form name="Especies" id="Especies">
+    <h2>Total a pagar: $</h2><input type="text" name="inputwindow" id="inputwindow">
+    <div>
+        <button type="button" id="uno" value="90" onclick="addResult(document.getElementById('uno').value);addToList(document.getElementById('uno').textContent,document.getElementById('uno').value);show(document.getElementById('uno').textContent)">Pez betta</button>
+        <button type="button" id="dos" value="180" onclick="addResult(document.getElementById('dos').value);addToList(document.getElementById('dos').textContent,document.getElementById('dos').value);show(document.getElementById('dos').textContent)">Pez dorado</button>
+        <button type="button" id="tres" value="200" onclick="addResult(document.getElementById('tres').value);addToList(document.getElementById('tres').textContent,document.getElementById('tres').value);show(document.getElementById('tres').textContent)">Guppy</button>
+        <button type="button" id="Pez borrón" value="170" onclick="addResult(document.getElementById('Pez borrón').value);addToList(document.getElementById('Pez borrón').textContent,document.getElementById('Pez borrón').value);show(document.getElementById('Pez borrón').textContent)">Pez borrón</button>
+    </div>
+    <div>
+        <button type="button" id="Carpa común" value="40" onclick="addResult(document.getElementById('Carpa común').value);addToList(document.getElementById('Carpa común').textContent,document.getElementById('Carpa común').value);show(document.getElementById('Carpa común').textContent)">Carpa común</button>
+        <button type="button" id="Channa striata" value="100" onclick="addResult(document.getElementById('Channa striata').value);addToList(document.getElementById('Channa striata').textContent,document.getElementById('Channa striata').value);show(document.getElementById('Channa striata').textContent)">Channa striata</button>
+        <button type="button" id="Pez luna" value="500" onclick="addResult(document.getElementById('Pez luna').value);addToList(document.getElementById('Pez luna').textContent,document.getElementById('Pez luna').value);show(document.getElementById('Pez luna').textContent)">Pez luna</button>
+        <button type="button" id="Tilapia del Nilo" value="130" onclick="addResult(document.getElementById('Tilapia del Nilo').value);addToList(document.getElementById('Tilapia del Nilo').textContent,document.getElementById('Tilapia del Nilo').value);show(document.getElementById('Tilapia del Nilo').textContent)">Tilapia del Nilo</button>
+    </div>
+    <div>
+        <button type="button" id="Óscar" value="156" onclick="addResult(document.getElementById('Óscar').value);addToList(document.getElementById('Óscar').textContent,document.getElementById('Óscar').value);show(document.getElementById('Óscar').textContent)">Óscar</button>
+        <button type="button" id="Siluro" value="80" onclick="addResult(document.getElementById('Siluro').value);addToList(document.getElementById('Siluro').textContent,document.getElementById('Siluro').value);show(document.getElementById('Siluro').textContent)">Siluro</button>
+        <button type="button" id="Pleco" value="210" onclick="addResult(document.getElementById('Pleco').value);addToList(document.getElementById('Pleco').textContent,document.getElementById('Pleco').value);show(document.getElementById('Pleco').textContent)">Pleco</button>
+        <button type="button" id="Escalar" value="177" onclick="addResult(document.getElementById('Escalar').value);addToList(document.getElementById('Escalar').textContent,document.getElementById('Escalar').value);show(document.getElementById('Escalar').textContent)">Escalar</button>
+    </div>
+    <div>
+        <button type="button" id="Lucio europeo" value="250" onclick="addResult(document.getElementById('Lucio europeo').value);addToList(document.getElementById('Lucio europeo').textContent,document.getElementById('Lucio europeo').value);show(document.getElementById('Lucio europeo').textContent)">Lucio europeo</button>
+        <button type="button" id="Topote mexicano" value="500" onclick="addResult(document.getElementById('Topote mexicano').value);addToList(document.getElementById('Topote mexicano').textContent,document.getElementById('Topote mexicano').value);show(document.getElementById('Topote mexicano').textContent)">Topote mexicano</button>
+        <button type="button" id="quince" value="300" onclick="addResult(document.getElementById('quince').value);addToList(document.getElementById('quince').textContent,document.getElementById('quince').value);show(document.getElementById('quince').textContent)">Synanceia verrucosa</button>
+      
+    </div>
+    <div class="results">
+        
+        <button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Borrar</button>
+    </div>
+   
+
+   
+</form>
+
+<script src="JS/integrador.js"></script>
+
+</body>
+</div>
+</html>

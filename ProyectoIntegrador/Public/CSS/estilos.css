@@ -1,0 +1,83 @@
+
+body {
+    background: url(../Portada.jpg);
+	background-size: 100vw 170vh;
+	background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+}
+
+body div.peces {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+
+div input[type='button'], button {
+	width: 160px;
+	height: 50px;
+	margin: 2px 0;
+    background-color: aquamarine;
+}
+
+div input[type="text"] {
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+	color: #fff;
+	padding: 12px 20px;
+    margin-top: 100px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+
+div.results input, div.results button {
+	height: 50px;
+	width: 100%;
+}
+
+div.results button {
+	background-color: rgb(94, 65, 225);
+	color: black;
+	border: 1px indianred;
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0;left: 0;
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+.container .menu a:hover{
+	border-bottom: 2px solid #fff;
+	padding: 5px 10px;
+}
+.container .menu{
+	float: right;
+	line-height: 70px;
+}
+
+.container .menu a{
+	display: inline-block;
+	padding: 15px 10px;
+	line-height: normal;
+	text-decoration: none;
+	color: #121612;
+	transition: all 0.3s ease;
+	border-bottom: 2px solid transparent;
+	font-size: 20px;
+}
+
+
+
